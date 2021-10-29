@@ -1,0 +1,117 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    align-content: center;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 0%;
+    
+}
+header{
+    width: inherit;
+    height: 160px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+header ul{
+    width: inherit;
+    padding: 0;
+    margin: 0;
+}
+header li{
+    display: inline-block;
+    width: 33%;
+}
+.elpais {
+    text-align: center;
+    padding-top: 3em;
+    font-size: large;
+}
+article {
+    width: 30%;
+        margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 2em;
+    font-size: 10pt;
+}
+.baner1{
+    margin: 0%;
+    text-align: center;
+}
+
+.imgcabecera {
+    margin: 0%;
+    }
+
+.titulo {
+    padding-top: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    text-align: center;
+    padding-right: 0%;
+    padding-left: 0%;
+    line-height: 2em;
+    
+}
+#capitular {
+    font-size: 6em;
+    font-style: bold;
+    font-family: inherit;
+    float: left;
+    line-height: 1em;
+  
+}
+.imgsec{
+    width: 80%;
+    align: center;
+    margin-left: 10%;
+}
+.subtitulo {
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1em;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.p1{
+    text-align: left;
+}
+footer{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 160px;
+    text-align: center;
+}
+footer ul{
+    width: inherit;
+    padding: 0;
+    margin: 0;
+}
+footer li{
+    display: inline;
+    width: 33%;
+}
+.criterios{
+    text-align: left;
+    font-size: 8pt;
+}
+.imgfoot{
+    align:center;
+}
+.info{
+    align:right;
+    font-size: 8pt;
+}
