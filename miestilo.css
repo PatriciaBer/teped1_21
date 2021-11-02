@@ -1,0 +1,26 @@
+#cabecera {
+    padding: 5%;
+    background-color: rgba(209, 212, 212, 0.774);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+       
+}
+#contenido {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1,5em;
+    line-height: 2em;
+}
+a:link {
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color:rgb(44, 43, 43)
+}
