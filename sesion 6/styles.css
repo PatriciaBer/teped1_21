@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0cm;
+}
+
+header{
+    padding-left: 15px;
+    padding-top: 15px;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: burlywood;
+    position: fixed;
+    z-index: 7;
+}
+.imagencabecera {
+    background-image: url(img/fondo.jpg);
+    background-size: auto;
+    height: 1920px;
+    width: 100%;
+	}
+.headlist{
+    padding-left: 30%;
+    display: inline;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    left: 100px;
+    top: 400px;
+    
+}
+.enlace:hover {
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+    
+}
+h1 {
+    color: black ;
+    font-size: 50pt;
+    font-weight: lighter;
+    margin-left: 10cm;
+  
+}
+
+h2 {
+    color: grey ;
+    font-size: 10pt;
+    margin-left: 10cm;
+    margin-bottom: 4cm;
+}
+p {
+    margin-left: 10cm;
+    margin-right: 500px;
+    line-height: 1.8;
+}
+ul {
+    list-style: none;
+    color: grey;
+    margin-left: 9cm;
+    margin-top: 4cm;
+    line-height: 3;
+}
+.feet {
+    background-color: black;
+    margin: 0cm;
+    height: 500px;
+}
+.feetlist {
+    padding-top: 4cm;
+    color: whitesmoke;
+}
