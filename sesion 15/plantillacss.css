@@ -83,6 +83,8 @@ footer{
     background-color: rgb(51, 49, 49);
     height: 200px;
     z-index: 2;
+    display: flex;
+    flex-direction: row;
 
    
 }
@@ -96,25 +98,27 @@ footer p{
     font-family:  Helvetica, Arial,sans-serif;
     margin-left: 50px;
 }
-ul {
+footer ul {
     list-style: none;
     display: flex;
-    flex-direction: row;
-    margin-left: auto;
+    flex-wrap: row wrap;
     position: relative;
     left: 250px;
     top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: small;
+    
 
    }
    
-li {
+footer li {
        display: flex;
        flex-direction: row;
-       padding-left: 15px;
+       padding-left: 30px;
    }
 a {
-    
-    text-decoration: none;
+        text-decoration: none;
 }
 a:visited {
     color: rgb(172, 170, 170);
@@ -125,4 +129,12 @@ a:hover {
     left: 5px;
     top: 5px;
 }
-
+footer p {
+    font-size: small;
+    margin-left: 0;
+}
+footer img{
+    width: 30%;
+    height: auto;
+    padding-top: 40px;
+}
