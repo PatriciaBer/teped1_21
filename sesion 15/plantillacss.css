@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(IMG/fondo-1400x860\ \(1\).jpg);
+}
+.principal {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgb(238, 135, 0); */
+    
+}
+.principal li {
+    padding: 30px;
+}
+h1 {
+    line-height: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabecera {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 150px;
+    top: 15px;
+    color: rgb(172, 170, 170);
+}
+p {
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.resaltado {
+    color: rgb(64, 170, 184);
+}
+.logo {
+    position: relative;
+    left: 150px;
+    top: 0px;
+    
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+        /* background-color: chartreuse; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.elemento {
+    width: 50%;
+    /*min-width:150px;*/
+    flex-direction: row;
+    padding: 0%;
+    /* background-color: blue; */
+    position: relative;
+    right: 50px;
+    top: 450px;
+    
+}
+img.alineadoTextoImagenCentro {
+    vertical-align: middle;
+}
+    
+article {
+    width: 50%;
+    padding: 9%;
+    line-height: 2em;
+    /* background-color: brown; */
+
+
+}
+footer{
+    background-color: rgb(51, 49, 49);
+    height: 200px;
+    z-index: 2;
+
+   
+}
+footer p{
+    padding-top: 20px;
+}
+.pie {
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 208, 0);
+    font-family:  Helvetica, Arial,sans-serif;
+    margin-left: 50px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    position: relative;
+    left: 250px;
+    top: -20px;
+
+   }
+   
+li {
+       display: flex;
+       flex-direction: row;
+       padding-left: 15px;
+   }
+a {
+    
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(172, 170, 170);
+    text-decoration: none;
+}
+a:hover {
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
