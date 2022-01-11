@@ -70,9 +70,9 @@ padding-top: 2%;
     justify-content: space-around;
     border-style: none;
     padding-top: 5%;
+    margin: auto;
 }
 .galeria {
     display: flex;
     flex-flow: row wrap;
-    margin-left: 10%;
 }
