@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#imgcabecera {
+    background-image: url(IMG/fragosa_horizontal_web.jpg);
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-position-x: center;
+    
+}
+
+#collapsibleNavbar li{
+    font-size: 20px;
+    padding-right: 40px;
+    font-family: 'Bebas Neue', cursive;    font-style: bold;
+    color: white;
+    text-decoration: none;
+    
+}
+.navbar-toggler{
+    height: 60px;
+    width: 60px;
+}
+#formulario{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: rgba(35, 31, 32, 100);
+    color: rgb(88, 87, 87);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    
+}
+
+#botonformulario{
+    font-size: 15px;
+}
+#contenido{
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 20px;
+    padding-left: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+#contenido h1{
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.cookies{
+    font-size: 15px;
+}
+/* Estilo tienda */
+#primerafila{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#segundafila{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.card{
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.card-body{
+    text-align: left;
+    vertical-align: top;
+}
+.card-text{
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-color: rgb(35, 31, 32, 60);
+        color: white;
+        text-align: center;
+}
+.material-icons{
+    padding-top: 20px;
+    position: relative;
+    left:500px;
+    
+}
+/* estilo servicios */
+section{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+.carousel-inner > img {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+a:hover img {
+    /*filter: saturate(0);*/
+    filter: blur(0px); 
+    
+}
+.blur {filter: blur(1px) grayscale(0%);}
+.opacity {filter: opacity(50%);}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+/* estilo contacto */
+#contenidocontacto {
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 6%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+#contenidocontacto h1{
+    font-family: 'Bebas Neue', cursive;
+}
+#contacto{
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 6%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+#imagenpie{
+    padding-top:5%;
+    padding-right: 5%;
+}
