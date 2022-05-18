@@ -134,10 +134,7 @@
     border-bottom-right-radius: 80px;
     height: 550px;
 }
-.funcion1a img{
-    width: 100%;
-    height: auto;
-}
+
 .titulo2{
     font-size: 2em;
     color: #FA7821;
@@ -208,7 +205,7 @@
 
 }
 .imgservicios{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
