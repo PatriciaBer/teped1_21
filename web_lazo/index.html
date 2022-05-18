@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Lazo</title>
+    <link rel="stylesheet" href="estilolazo.css">
+    <link rel="shortcut icon" href="img/favicon-02.png">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--Para representación adecuada y zoom táctil-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"><img alt="Logotipo Lazo" src="img/Grupo 191.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#videopresentacion">Vídeo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#colaboradores">Colaboradores</a>
+                </li>
+                <button class="boton">Descargar</button>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <!-- introduccion -->
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="texto">
+                    <p class="titulo1">Bankinter presenta LAZO</p>
+                    <p> "Lograr Ser excepcionales a diario es vital para Bankinter. Es lo que nos ha permitido ser en
+                        España el banco pionero de referencia.
+                        Hemos sido los primeros en crear la banca por Internet, los primeros en traer el banco al móvil,
+                        y los primeros en enviar mensajes de
+                        texto para confirmar los pagos con tarjeta. Ahora damos un paso más allá y os presentamos LAZO,
+                        la aplicación móvil que revolucionará tu vida
+                        y cambiará la forma de interactuar con tu banco.
+                        Siendo excepcionales a diario hemos llegado hasta aquí y es lo que mañana nos permitirá seguir
+                        yendo un paso por delante de los demás."</p>
+                    <p>
+                        <button class="button"><a href="https://marca.bankinter.com/" target="_blank">Saber
+                                más</a></button>
+                    </p>
+
+                    <br> <br>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div id="imagenpres">
+                    <img alt="Imagen home" src="img/Grupo 197.png">
+                </div>
+            </div>
+        </div>
+        <!-- video presentacion -->
+        <div class="row">
+            <div class="col-12 col-md-12">
+                <div id="videopresentacion">
+                    <video class="mx-auto d-block" width="880px" controls>
+                        <source src="video/Spot.mp4" type="video/mp4">
+                    </video> 
+                </div>
+            </div>
+        </div>
+        <!-- funciones -->
+        <div class="row no-gutters" id="servicios">
+            <div class="funcion1a col-12 col-md-5">
+                    <img class="imgservicios" alt="Sacar dinero" src="img/sacar.png">
+            </div>
+            <div class="funcion1b col-12 col-md-5">
+                <div class="texto">
+                    <p class="titulo2">Sacar dinero</p>
+                    <p><strong>¿ESTÁS CANSADO DE PELEAR CON CAJEROS AUTOMÁTICOS? </strong><br>
+                        Con Lazo te olvidarás de este problema, podrás sacar tu dinero en 3 sencillos pasos:
+                        <br>
+                        Paso 1: Escanea el código de colores que hay en el cajero.
+                        <br>
+                        Paso 2: Marca la cantidad de dinero que quieres sacar.
+                        <br>
+                        Paso 3: Recoge tu dinero.
+                        <br><br>
+                        ¡YA LO TIENES!
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-2">
+                &nbsp;
+            </div>
+            <div class="funcion2a col-12 col-md-5">
+                <div class="texto">
+                    <p class="titulo3">Pagar recibos</p>
+                    <p><strong>¿CANSADO DE LAS COLAS PARA PAGAR EN EL BANCO?</strong> <br>
+                        ¡No te preocupes! Con Lazo no será necesario. Sólo tienes que seguir dos sencillos pasos:
+                        <br>
+                        Paso 1: Escanea el código de colores que aparece en tu recibo.
+                        <br>
+                        Paso 2: Acepta el pago.
+                        <br><br>
+                        Se acabó. ¡DISFRUTA DE TU TIEMPO!
+                    </p>
+                </div>
+            </div>
+            <div class="funcion2b col-12 col-md-5">
+                <img class="imgservicios" alt="Pagar recibos" src="img/recibos.png" />
+            </div>
+        </div>
+
+        <div class="row no-gutters" >
+            <div class="funcion3a col-12 col-md-5">
+
+                <img class="imgservicios" alt="Mirar cartilla" src="img/cartilla.png">
+
+            </div>
+            <div class="funcion3b col-12 col-md-5">
+                <div class="texto">
+                    <p class="titulo4">Mirar cartilla</p>
+                    <p><strong>¿ERES DE LOS QUE OLVIDA EN QUÉ GASTA EL DINERO?</strong><br>
+                        Tranquilo, con la cartilla de Lazo, no volverás a tener ese problema.
+                        Podrás comprobar a cualquier hora y lugar todos los movimientos de tus
+                        cuentas bancarias en tiempo real, con los datos detallados del comercio
+                        donde has realizado tus compras.
+                        <br><br>
+                        ¡YA NO VOLVERÁS A DUDAR EN QUÉ TE HAS GASTADO EL DINERO!
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row no-gutters">
+            <div class="col-md-2">
+                &nbsp;
+            </div>
+            <div class="funcion4a col-12 col-md-5">
+                <div class="texto">
+                    <p class="titulo5">Ajustar la aplicación<br></p>
+                    <p>
+                        <strong>¿HARTO DE LAS INTERFACES OBTUSAS Y COMPLICADAS?</strong><br>
+                        Lazo ofrece un sistema de personalización y ajustes para que puedas acomodar la
+                        navegación de la aplicación a tus necesidades y requisitos.
+
+                        Modifica el acceso a la app mediante código o huella dactilar.<br>
+                        Elige entre 3 diferentes tonos de sonido para recibir nuestras notificaciones y
+                        mensajes.<br>
+                        Selecciona el tamaño de texto más acorde a tus preferencias.<br>
+                        <br><br>
+                        ¡QUE LAZO SE SIENTA COMO TU HOGAR!
+                    </p>
+                </div>
+            </div>
+            <div class="funcion4b col-12 col-md-5">
+                <img class="imgservicios" alt="Ajustes aplicación" src="img/ajustes.png">
+            </div>
+        </div>
+
+        <!-- colaboradores -->
+        <div class="row">
+            <div class="col-12 col-md-6" id="colaboradores">
+                <div class="texto">
+                    <p class="titulo1">Nuestros colaboradores</p> <br><br>
+                    <h2>Confederación Nacional de jubilados y pensionistas</h2>
+                    <p>
+                        Participa activamente (de forma directa ó a través de nuestras Entidades
+                        integradas), en
+                        todos
+                        los órganos de la administración donde se toman decisiones en relación a su
+                        colectivo,
+                        reclamando
+                        programas y actuaciones concretas que les ayuden a mejorar en materia de: pensiones,
+                        dependencia,
+                        servicios sociales, servicios sanitarios, etc.
+                    </p>
+                    <p>
+                        <button class="button"><a href="https://www.conjupes.org/" target="_blank">Visita su página
+                                web</a></button>
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="imgscol1">
+                    <img class="col1" alt="Logotipo Conjupes" src="img/LOGO-CONJUPES-1.png" width="100%" />
+                    <img alt="Imserso imagen ministerio" src="img/IMSERSO.png" />
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="texto">
+                    <h2>Navilens</h2>
+                    <p>
+                        NaviLens ayuda a hacer ciudades más inteligentes e inclusivas. Las capacidades de
+                        este
+                        código
+                        permiten a los usuarios relacionarse de forma más sencilla y accesible con su
+                        entorno.
+
+                        Navilens se une a Bankinter para facilitar su sistema de lectura de códigos. Más
+                        rápido,
+                        más sencillo y más eficaz. Ofreciendo una de las mejores facilidades para los
+                        servicios
+                        que
+                        dispone la nueva aplicación de Bankinter.
+                    </p>
+                    <p>
+                        <button class="button"><a href="https://www.navilens.com/es/" target="_blank">Visita su página
+                                web</a></button>
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="imgscol2">
+                    <img class="col3" alt="Código Navilens" src="img/Captura de pantalla 2022-03-14 133319.png" />
+                    <img class="col4" alt="Logotipo Navilens" src="img/Grupo 196.png" />
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12">
+                <img class="estadlazo mx-auto d-block" alt="Datos Lazo" src="img/Grupo 186.png" />
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="row">
+            <div id="footer">
+                <div class="col-12 col-md-12">
+                    <div class="row">
+                        <div class="col-12 col-md-5">
+                            &nbsp;
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <div class="row">
+                                <div class="col-12 col-md-3">
+                                    <ul>
+                                        <li><strong>Políticas</strong></li>
+                                        <li>Acuerdos legales</li>
+                                        <li>Política de privacidad</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <ul>
+                                        <li><strong>Servicios</strong></li>
+                                        <li>Sacar dinero </li>
+                                        <li>Pagar recibos</li>
+                                        <li>Mirar cartilla</li>
+                                        <li>Ajustar perfil</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <ul>
+                                        <li><strong>Ayuda</strong></li>
+                                        <li>Preguntas frecuentes</li>
+                                        <li>Comunidad</li>
+                                        <li>Centro de ayuda</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <ul>
+                                        <li><strong>Social</strong></li>
+                                        <li>
+                                            <img alt="Facebook" src="img/Facebook.png" />
+                                        </li>
+                                        <li>
+                                            <img alt="Twitter" src="img/Twitter.png" />
+                                        </li>
+                                        <li>
+                                            <img alt="Linked in" src="img/LinkedIN.png" />
+                                        </li>
+                                        <li>
+                                            <img alt="Instagram" src="img/Instagram.png" />
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="legal col-12 col-md-12">
+                        Lazo es una compañía registrada. Lazo está autorizada por el Banco Nacional de España bajo
+                        la
+                        legislación monetaria vigente.
+                        Referencia en el registro mercantil 900562.Diseñado por PLLP, Lopi y Pebepé Diseño Gráfico.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

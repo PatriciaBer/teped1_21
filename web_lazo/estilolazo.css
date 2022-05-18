@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+   
+    font-size: 20px;
+    font-family: "cuerpo";
+}
+@font-face{
+    font-family: "cabecera";
+    src: url(fuentes/BankinterText-Regular.otf);
+}
+@font-face{
+    font-family: "functit";
+    src: url(fuentes/BankinterText-Bold.otf);
+}
+@font-face {
+    font-family: "cuerpo";
+    src: url(fuentes/BankinterSans-Reg.otf);
+}
+.navbar{
+    height: 91px;
+    position: fixed;
+    z-index: 2;
+    background-color: #FA7821;  
+}
+.nav-item{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    color: white;
+
+
+}
+#collapsibleNavbar{
+    background-color: #FA7821;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: right;
+}
+.boton{
+    color: white;
+    background-color: #FA7821;
+    width: 189px;
+    height: 61px;
+    border: 4px solid white;
+    border-radius: 25px;
+    margin-left: 80px;
+}
+
+
+
+
+#imagenpres{
+    display: flex;
+    justify-content: right;
+    padding-left: 100px;
+    background-color: #FA7821;
+    border-bottom-left-radius: 80px;
+}
+#imagenpres img {
+    padding-top: 200px;
+    width: 100%; 
+    margin-bottom: 50px;  
+} 
+.titulo1{
+    font-size: 50pt;
+    color: #FA7821;
+    font-family: "cabecera";
+}
+.texto{
+    padding-top: 150px;
+    padding-left: 150px;
+    display: flex;
+    flex-flow: row wrap;
+    padding-right: 50px;
+    text-align: justify;
+}
+.button{
+    background-color: #FA7821;
+    color: white;
+    width: 201px;
+    height: 78px;
+    border: 0;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.button a:visited{
+    color: white;
+    text-decoration: none;
+
+}
+.button a:hover{
+    text-decoration: none;
+    color: white;
+}
+#videopresentacion{
+    height: 800px;
+    padding-top: 100px;
+    width: 100%;
+}
+
+
+.funcion1a{
+    background-color: #feebdd;
+    background-image:url(img/Grupo\ 198.png);
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 250px;
+    height: 820px;
+    background-size: 30%;
+
+}
+.funcion1b{
+    background-color: #feebdd;
+    border-bottom-right-radius: 80px;
+    height: 820px;
+}
+
+.titulo2{
+    font-size: 40pt;
+    color: #FA7821;
+    font-family: "functit";
+}
+.funcion2a {
+   background-color: #ddf0ee;
+   border-top-left-radius: 80px;
+   height: 820px;
+}
+.funcion2b{
+    background-color: #ddf0ee;
+    background-image:url(img/Grupo\ 199.png);
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    background-position-y: 250px;
+    height: 820px;
+    background-size: 30%;
+
+}
+
+.titulo3{
+    font-size: 40pt;
+    color: #1D9986;
+    font-family: "functit";
+
+}
+.funcion3a{
+    background-color: #f6fcfc;
+    background-image:url(img/Grupo\ 201.png);
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 250px;
+    height: 820px;
+    background-size: 30%;
+}
+.funcion3b{
+    background-color: #f6fcfc;
+    border-bottom-right-radius: 80px;
+    height: 820px;
+}
+
+.titulo4{
+    font-size: 40pt;
+    color: #C1E5E1;
+    font-family: "functit";
+
+}
+.funcion4a{
+    background-color: #fdeee9;
+    border-top-left-radius: 80px;
+    height: 820px;
+}
+.funcion4b{
+    background-color: #fdeee9;
+    background-image:url(img/Grupo\ 202.png);
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    background-position-y: 250px;
+    height: 820px;
+    background-size: 30%;
+
+}
+.imgservicios{
+    width: 80%;
+    height: auto;
+}
+
+.titulo5{
+    font-size: 40pt;
+    color: #F28E6D;
+    font-family: "functit";
+
+}
+
+.imgscol1{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    
+}
+.col1{
+    width: 463px;
+    height: 297px;
+    margin-top: 100px;
+}
+.imgscol2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.estadlazo{
+    width: 90%;
+    justify-items: center;
+
+}
+
+#footer{
+    background-color: #F7F7F7;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: space-around;
+    width: 100%;
+    background-size: cover;
+}
+.legal{
+    font-size: 10pt;
+    padding-left: 100px;    
+}
+#footer ul{
+    list-style: none;
+    text-decoration: none;
+}
+#footer li{
+    font-size: 12pt;
+    padding-top: 10px;
+    color: grey;
+
+}
