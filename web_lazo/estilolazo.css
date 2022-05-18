@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
    
-    font-size: 20px;
+    font-size: 1em;
     font-family: "cuerpo";
 }
 @font-face{
@@ -62,17 +62,16 @@
     margin-bottom: 50px;  
 } 
 .titulo1{
-    font-size: 50pt;
+    font-size: 3em;
     color: #FA7821;
     font-family: "cabecera";
 }
 .texto{
-    padding-top: 150px;
+    padding-top: 100px;
     padding-left: 150px;
     display: flex;
     flex-flow: row wrap;
     padding-right: 50px;
-    text-align: justify;
 }
 .button{
     background-color: #FA7821;
@@ -97,11 +96,28 @@
     color: white;
 }
 #videopresentacion{
-    height: 800px;
-    padding-top: 100px;
-    width: 100%;
+        position: relative;
+        padding-bottom: 56.25%; /* 16/9 ratio */
+        padding-top: 30px; /* IE6 workaround*/
+        height: 0;
+        overflow: hidden;
+
+}
+#videopresentacion iframe,
+#videopresentacion object,
+#videopresentacion embed {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        height: 80%;
 }
 
+
+.textocont{
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 .funcion1a{
     background-color: #feebdd;
@@ -109,25 +125,28 @@
     background-repeat: no-repeat;
     background-position-x: 0px;
     background-position-y: 250px;
-    height: 820px;
+    height: 550px;
     background-size: 30%;
 
 }
 .funcion1b{
     background-color: #feebdd;
     border-bottom-right-radius: 80px;
-    height: 820px;
+    height: 550px;
 }
 
 .titulo2{
-    font-size: 40pt;
+    font-size: 2em;
     color: #FA7821;
     font-family: "functit";
 }
 .funcion2a {
    background-color: #ddf0ee;
    border-top-left-radius: 80px;
-   height: 820px;
+   height: 550px;
+}
+.funcion2a .textocont{
+    padding-top: 50px;
 }
 .funcion2b{
     background-color: #ddf0ee;
@@ -135,13 +154,13 @@
     background-repeat: no-repeat;
     background-position-x: 500px;
     background-position-y: 250px;
-    height: 820px;
+    height: 550px;
     background-size: 30%;
 
 }
 
 .titulo3{
-    font-size: 40pt;
+    font-size: 2em;
     color: #1D9986;
     font-family: "functit";
 
@@ -152,17 +171,17 @@
     background-repeat: no-repeat;
     background-position-x: 0px;
     background-position-y: 250px;
-    height: 820px;
+    height: 550px;
     background-size: 30%;
 }
 .funcion3b{
     background-color: #f6fcfc;
     border-bottom-right-radius: 80px;
-    height: 820px;
+    height: 550px;
 }
 
 .titulo4{
-    font-size: 40pt;
+    font-size: 2em;
     color: #C1E5E1;
     font-family: "functit";
 
@@ -170,7 +189,10 @@
 .funcion4a{
     background-color: #fdeee9;
     border-top-left-radius: 80px;
-    height: 820px;
+    height: 550px;
+}
+.funcion4a .textocont{
+    padding-top: 50px;
 }
 .funcion4b{
     background-color: #fdeee9;
@@ -178,17 +200,17 @@
     background-repeat: no-repeat;
     background-position-x: 500px;
     background-position-y: 250px;
-    height: 820px;
+    height: 550px;
     background-size: 30%;
 
 }
 .imgservicios{
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
 .titulo5{
-    font-size: 40pt;
+    font-size: 2em;
     color: #F28E6D;
     font-family: "functit";
 
@@ -200,16 +222,21 @@
     align-items: center;
     
 }
-.col1{
-    width: 463px;
-    height: 297px;
+.imgscol1 img{
+    width: 50%;
+    height: auto;
     margin-top: 100px;
 }
+
 .imgscol2{
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
     padding-top: 100px;
+}
+.imgscol2 img{
+    width: 50%;
+    height: auto;
 }
 
 .estadlazo{
@@ -227,7 +254,7 @@
     background-size: cover;
 }
 .legal{
-    font-size: 10pt;
+    font-size: 0.6em;
     padding-left: 100px;    
 }
 #footer ul{
@@ -235,7 +262,7 @@
     text-decoration: none;
 }
 #footer li{
-    font-size: 12pt;
+    font-size: 0.8em;
     padding-top: 10px;
     color: grey;
 
